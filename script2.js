@@ -11,3 +11,14 @@ if (edad >= 1 && edad <= 12) {
     console.log("Es un viejo")
 }
 
+// Una pesona puede jubilarse a los 60 a;os si es hombre, a los 65 si es mujer
+// && -> and (ambas declaraciones debe ser verdadera)
+// || -> or (alguna de las declaraciones debe sere verdadera)
+let edad;
+let genero;
+
+if ((genero == "F" && edad >= 60) || (genero == "M" && edad >= 65)) {
+    console.log("Esta persona esta en edad de jubirlarse")
+} else {
+    console.log("Esta persona no esta en edad de jubilarse")
+}
